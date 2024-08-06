@@ -4,13 +4,12 @@ agent any
 stages
 {
  stage('git')
-    {
-    steps 
-{ 
-git 'https://github.com/OWASP/wrongsecrets.git'
-
-}
-}
-}
-}
+ {
+ steps
+ {
+ git 'https://github.com/OWASP/wrongsecrets.git'
+ }
+ }
+ }
+ }
 
